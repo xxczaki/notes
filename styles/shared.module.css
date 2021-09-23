@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0.5rem;
+  margin: 0;
+  width: 100%;
+}
+
+.delete {
+  font-size: 1.1rem;
+  border-radius: var(--rounded-sm);
+  padding: .25rem;
+  height: fit-content;
+  background: red;
+  color: white;
+}
+
+.delete:disabled {
+  opacity: 0.5;
+}
+
+.note {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  border-radius: var(--rounded-md);
+  background-color: #eee;
+  width: 100%;
+}

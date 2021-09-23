@@ -1,0 +1,21 @@
+.heading {
+  width: 100%;
+}
+
+.notes {
+  display: grid;
+  grid-gap: 1rem;
+  width: 100%;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: .9rem;
+  color: #555;
+  cursor: pointer;
+}

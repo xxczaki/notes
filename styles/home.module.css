@@ -1,0 +1,30 @@
+.content {
+  width: 100%;
+  max-width: 45rem;
+}
+
+.form {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.input {
+  height: 20rem;
+  padding: 1rem;
+  border-radius: var(--rounded-md);
+  font-size: 1.1rem;
+  font-family: var(--font-family);
+  resize: none;
+}
+
+.button {
+  font-size: 1.1rem;
+  border-radius: var(--rounded-sm);
+  padding: .5rem;
+}
